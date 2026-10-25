@@ -10,8 +10,5 @@
 
 🎀 **presentaciones/** 
    * Presentaciones de los temas vistos en clase.
-
----
-✨ ୨୧ *¡Mucho éxito con tu curso!* ୨୧ ✨
 ---
 ## 🌟Este repositorio le pertenece a **Isabella Quintero**

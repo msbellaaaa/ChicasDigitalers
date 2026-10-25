@@ -1,6 +1,4 @@
-# 🎀 Curso de Desarrollo Web - Chicas Digitalers ✨
-
-🌟 Repositorio con los archivos del curso de desarrollo web de Chicas Digitalers (mis trabajos, los códigos trabajados en clase y las presentaciones de los temas vistos en clase).
+# 🎀 Curso de Desarrollo Web_Chicas Digitalers 🌟
 
 ---
 
@@ -17,3 +15,5 @@
 
 ---
 ✨ ୨୧ *¡Mucho éxito con tu curso!* ୨୧ ✨
+---
+🌟Este repositorio le pertenece a **Isabella Quintero**

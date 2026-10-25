@@ -1,0 +1,123 @@
+body {
+    background-color: #c7baa7;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    margin: 0;
+}
+
+#encabezado {
+    background-color: #aca883;
+    text-align: center;
+    padding: 26px;
+}
+
+#encabezado h1 {
+    color: #313022;
+    font-size: 42px;
+    margin: 8px;
+}
+
+#encabezado p {
+    color: #1b1b12;
+    font-size: 17px;
+    margin: 9px;
+}
+
+#menu {
+    background-color: #928f68;
+    text-align: center;
+    padding: 13px;
+}
+
+#menu a {
+    color: #313022;
+    margin: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#menu a:hover {
+    color: #928f68;
+    background-color: #313022;
+    border-radius: 3px;
+    padding: 5px;
+    transform: scale(1.05);
+}
+
+#inicio {
+    background-color:#b3a28d;
+    text-align: center;
+    padding: 7px;
+    margin-top: 14px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 2%;
+    border: 2px solid #9c8c77;
+}
+
+#inicio h2 {
+    color: #1b1b12;
+    font-size: 31px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+#inicio p {
+    color: #313022;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 360px;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 18px;
+    background-color: #b99189;
+    color: #dabeb8;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: 0.3s;
+    padding: 4px;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #dabeb8;
+    color: #b99189;
+    transform: scale(1.05);
+}
+
+#beneficios {
+    background-color: #b1837a;
+    text-align: center;
+    padding: 3px;
+    margin-top: 12px;
+    margin-left: 287px;
+    margin-right: 287px;
+    border-radius: 2%;
+    border: 2px solid #9c726a;
+}
+
+#beneficios h3 {
+    color: #33140d;
+    font-size: 22px;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+
+#beneficios p {
+    color: #4e1407;
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+#beneficios ul {
+    text-align: justify;
+    color: #220c07;
+    font-size: 15px;
+    width: 487px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Turnos.css">
+    <title>Turnos Pausa</title>
+</head>
+<body>
+    <header id="encabezado">
+        <h1> Pausa: Masajes</h1>
+        <p>¡Sacá tu turno y date un momento para vos!</p>
+    </header>
+
+    <nav id="menu">
+        <a href="Index.html">Inicio</a>
+        <a href="Masajes.html">Masajes</a>
+    </nav>
+    <main>
+        <section id="turnero">
+            <h2>Completa el formulario</h2>
+            <p>para obtener un turno</p>
+        </section>
+
+        <section id="formulario">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <br>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <br>
+
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <br>
+
+                <label for="servicio">Elegí tu servicio</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Seleccioná un servicio</option>
+                    <option value="descontracturante">Masaje descontracturante</option>
+                    <option value="aromaterapia">Masaje con aromaterapia</option>
+                    <option value="reflexologíapodal">Reflexología podal</option>
+                    <option value="relajante">Masaje relajante</option>
+                </select>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

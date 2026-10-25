@@ -1,0 +1,135 @@
+
+body {
+    background-color: #fdf6f0;
+    color: #5f4b56;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+#menu {
+    background-color: #d9c6e8;
+    text-align: center;
+    padding: 15px;
+}
+
+#menu a {
+    color: #5d4268;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#cafes {
+    background-color: #fff1e6;
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 70vh;
+}
+
+#cafes h1 {
+    color: #7b557c;
+    font-size: 36px;
+}
+
+.descripcion {
+    color: #806c76;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.contenedor-cafes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.cafe {
+    background-color: #ffffff;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.cafe .icono {
+    font-size: 45px;
+}
+
+.cafe h2 {
+    color: #a06c91;
+    font-size: 22px;
+}
+
+.cafe p {
+    color: #6f6067;
+    line-height: 1.5;
+}
+
+.cafe span {
+    display: inline-block;
+    background-color: #c99ab5;
+    color: #ffffff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+#pie {
+    background-color: #c8b2d6;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+#pie p {
+    margin: 8px;
+}
+
+
+@media (max-width: 600px) {
+
+    #menu {
+        padding: 12px;
+    }
+
+    #menu a {
+        font-size: 16px;
+    }
+
+
+    #cafes {
+        padding: 35px 15px;
+    }
+
+    #cafes h1 {
+        font-size: 28px;
+    }
+
+    .descripcion {
+        font-size: 16px;
+    }
+
+
+    .contenedor-cafes {
+        gap: 15px;
+    }
+
+    .cafe {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    #pie {
+        padding: 20px 10px;
+    }
+
+}
+

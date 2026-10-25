@@ -1,0 +1,311 @@
+
+/* =========================
+   ESTILOS GENERALES / GENERAL STYLES
+   ========================= */
+
+body {
+    background-color: #fdf6f0; /* Color de fondo */
+    color: #5f4b56; /* Color del texto */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    margin: 0; /* Elimina el margen exterior*/
+}
+
+
+/* =========================
+   ENCABEZADO / HEADER
+   ========================= */
+
+#encabezado {
+    background-color: #f4d6e4;
+    text-align: center; /* Alineación del texto */
+    padding: 30px; /* Espacio interno */
+}
+
+#encabezado h1 {
+    color: #7b557c;
+    font-size: 36px; /* Tamaño de letra*/
+    margin: 10px; /* Espacio exterior*/
+}
+
+#encabezado p {
+    color: #765f6d;
+    font-size: 18px;
+}
+
+
+/* =========================
+   NAV = MENÚ DE NAVEGACIÓN / NAVIGATION
+   ========================= */
+
+#menu {
+    background-color: #d9c6e8;
+    text-align: center;
+    padding: 15px;
+}
+
+#menu a {
+    color: #5d4268;
+    text-decoration: none; /* Quita la decoración del enlace*/
+    margin: 0 15px;
+    font-weight: bold; /* Texto en negrita */
+}
+
+
+/* =========================
+   MAIN = CONTENIDO PRINCIPAL / MAIN 
+   ========================= */
+
+
+/* =========================
+   PRESENTACIÓN / INTRODUCTION
+   ========================= */
+
+#principal {
+    background-color: #fff1e6;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#principal h2 {
+    color: #9a6684;
+    font-size: 30px;
+}
+
+#principal p {
+    font-size: 18px;
+}
+
+
+/* =========================
+   BOTÓN / BUTTON
+   ========================= */
+
+.boton {
+    display: inline-block; /* Permite aplicar dimensiones como un bloque */
+    background-color: #c99ab5;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin-top: 15px; /* Espacio superior*/
+    border-radius: 20px; /* Redondea las esquinas*/
+}
+
+
+/* =========================
+   PRODUCTOS 
+   ========================= */
+
+#productos {
+    background-color: #f8efe7;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#productos h2 {
+    color: #7b557c;
+    font-size: 28px;
+}
+
+.descripcion {
+    color: #806c76;
+}
+
+
+/* Cada producto comparte la misma clase */
+
+
+.producto {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px; /* Ancho máxim */
+    border-radius: 15px;
+}
+
+.producto h3 {
+    color: #a06c91;
+}
+
+.producto p {
+    color: #6f6067;
+}
+
+
+/* =========================
+   SECTION = NOSOTRAS 
+   ========================= */
+
+#nosotras {
+    background-color: #f4d6e4;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+#nosotras h2 {
+    color: #7b557c;
+    font-size: 28px;
+}
+
+#nosotras p {
+    color: #6f6067;
+    font-size: 18px;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6; /* Altura entre líneas */
+}
+
+
+/* =========================
+   SECTION = CONTACTO 
+   ========================= */
+
+#contacto {
+    background-color: #fff1e6;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+#contacto h2 {
+    color: #7b557c;
+    font-size: 28px;
+}
+
+#contacto p {
+    background-color: #ffffff;
+    color: #6f6067;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+/* =========================
+   PIE DE PÁGINA / FOOTER
+   ========================= */
+
+#pie {
+    background-color: #c8b2d6;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+#pie p {
+    margin: 8px;
+}
+
+
+/* =========================
+   RESPONSIVE = DISEÑO ADAPTABLE
+   ========================= */
+
+/*
+   @media permite aplicar estilos dependiendo
+   del tamaño de la pantalla.
+   
+   En este caso, se aplican cuando la pantalla
+   tiene 600px o menos.
+
+*/
+
+@media (max-width: 600px) {
+
+
+    /* HEADER = ENCABEZADO */
+
+    #encabezado {
+        padding: 20px 10px;
+    }
+
+    #encabezado h1 {
+        font-size: 28px;
+    }
+
+    #encabezado p {
+        font-size: 16px;
+    }
+
+
+    /* NAV = MENÚ DE NAVEGACIÓN */
+
+    #menu {
+        padding: 10px;
+    }
+
+    #menu a {
+        display: block;
+        margin: 10px;
+    }
+
+
+    /* PRESENTACIÓN = INTRODUCCIÓN */
+
+    #principal {
+        padding: 35px 15px;
+    }
+
+    #principal h2 {
+        font-size: 24px;
+    }
+
+    #principal p {
+        font-size: 16px;
+    }
+
+
+    /* PRODUCTOS  */
+
+    #productos {
+        padding: 35px 15px;
+    }
+
+    #productos h2 {
+        font-size: 24px;
+    }
+
+    .producto {
+        margin: 15px 5px;
+        padding: 18px;
+    }
+
+
+    /* NOSOTRAS */
+
+    #nosotras {
+        padding: 35px 15px;
+    }
+
+    #nosotras h2 {
+        font-size: 24px;
+    }
+
+    #nosotras p {
+        font-size: 16px;
+    }
+
+
+    /* CONTACTO*/
+
+    #contacto {
+        padding: 35px 15px;
+    }
+
+    #contacto h2 {
+        font-size: 24px;
+    }
+
+    #contacto p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+
+    /* FOOTER = PIE DE PÁGINA */
+
+    #pie {
+        padding: 20px 10px;
+    }
+
+}
+

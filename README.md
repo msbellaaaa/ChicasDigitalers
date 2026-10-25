@@ -1,7 +1,5 @@
-# 🎀 Curso de Desarrollo Web_Chicas Digitalers 🌟
-
+# 🎀Curso de Desarrollo Web_Chicas Digitalers🌟
 ---
-
 ## 🧸 Estructura del Repositorio 💫
 
 🎀 **trabajos/** 
@@ -16,4 +14,4 @@
 ---
 ✨ ୨୧ *¡Mucho éxito con tu curso!* ୨୧ ✨
 ---
-🌟Este repositorio le pertenece a **Isabella Quintero**
+##🌟Este repositorio le pertenece a **Isabella Quintero**

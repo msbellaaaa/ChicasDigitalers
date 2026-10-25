@@ -10,5 +10,3 @@
 
 🎀 **presentaciones/** 
    * Presentaciones de los temas vistos en clase.
----
-## 🌟Este repositorio le pertenece a **Isabella Quintero**
